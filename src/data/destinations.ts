@@ -58,34 +58,34 @@ export const DESTINATIONS_DATA: Destination[] = [
 
 export const GALLERY_ITEMS = [
   {
-    image: "/gallery/luxury-interior.jpg",
-    title: "Executive First-Class Comfort",
-    category: "Fleet Interior"
-  },
-  {
-    image: "/gallery/airport-transfer.jpg",
-    title: "VIP Airport Meet & Greet",
-    category: "Airport Service"
-  },
-  {
-    image: "/gallery/chauffeur-drive.jpg",
-    title: "Chauffeured Road Trips",
-    category: "Experience"
-  },
-  {
-    image: "/gallery/goa-coast.jpg",
-    title: "Scenic Goa Coastal Highways",
-    category: "Destinations"
-  },
-  {
     image: "/fleet/force-urbania.jpg",
-    title: "Force Urbania 17-Seater In Action",
-    category: "Group Fleet"
+    title: "Force Urbania 17-Seater Business Class",
+    category: "VIP Group Travel"
   },
   {
     image: "/fleet/toyota-innova-hycross.jpg",
     title: "Toyota Innova Hycross Hybrid",
-    category: "Luxury MPV"
+    category: "Executive MPV"
+  },
+  {
+    image: "/hero-bg.jpg",
+    title: "Twilight Scenic Goa Coastal Road",
+    category: "Scenic Experience"
+  },
+  {
+    image: "/destinations/fontainhas.jpg",
+    title: "Panjim Fontainhas Heritage Quarter",
+    category: "Goa Culture"
+  },
+  {
+    image: "/destinations/palolem.jpg",
+    title: "South Goa Palolem Tropical Bay",
+    category: "Beach Excursions"
+  },
+  {
+    image: "/fleet/tempo-traveller.jpg",
+    title: "Tempo Traveller 20-Seater Tourer",
+    category: "Event Logistics"
   }
 ];
 

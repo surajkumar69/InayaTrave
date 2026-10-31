@@ -18,16 +18,18 @@ export default function About() {
           {/* Left Column: Images Collage */}
           <div className="lg:col-span-6 relative">
             <div className="relative z-10 rounded-2xl overflow-hidden border border-luxury-700/80 shadow-2xl group">
-              <div className="relative h-80 sm:h-96 w-full">
+              <div className="relative h-80 sm:h-[420px] w-full">
                 <Image
-                  src="/gallery/luxury-interior.jpg"
-                  alt="INAYA TRAVEL Luxury Chauffeur Interior"
+                  src="/about-showcase.jpg"
+                  alt="INAYA TRAVEL Panjim Patto Goa Luxury Chauffeur"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-luxury-950 via-transparent to-transparent opacity-80" />
+                <div className="absolute inset-0 bg-gradient-to-t from-luxury-950 via-luxury-950/20 to-transparent opacity-90" />
               </div>
+
+              {/* Stationed in Panjim Patto Hub Banner */}
               <div className="absolute bottom-4 left-4 right-4 p-4 glass-panel rounded-xl">
                 <div className="flex items-center gap-3">
                   <div className="p-2.5 rounded-lg bg-luxury-900 border border-luxury-700 text-silver-light">
@@ -35,13 +37,29 @@ export default function About() {
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-white">Stationed in Panjim Patto, Goa</h4>
-                    <p className="text-xs text-silver-metallic">Rapid dispatch to North Goa, South Goa, and both Airports</p>
+                    <p className="text-xs text-silver-metallic">Rapid dispatch to North Goa, South Goa, Mopa (GOX) & Dabolim (GOI)</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Overlapping Badge Card */}
+            {/* Inset Fleet Mini Card */}
+            <div className="hidden sm:block absolute -top-5 -right-5 z-20 glass-panel-elevated p-2 rounded-2xl border border-luxury-600/70 shadow-2xl w-48">
+              <div className="relative h-28 w-full rounded-xl overflow-hidden mb-2">
+                <Image
+                  src="/fleet/toyota-innova-hycross.jpg"
+                  alt="Toyota Innova Hycross Luxury Hybrid"
+                  fill
+                  className="object-cover object-center"
+                />
+              </div>
+              <div className="px-1 pb-1">
+                <div className="text-[11px] font-bold text-white">Innova Hycross Hybrid</div>
+                <div className="text-[10px] text-whatsapp font-semibold">Executive Chauffeur</div>
+              </div>
+            </div>
+
+            {/* Overlapping VIP Badge Card */}
             <div className="absolute -bottom-6 -right-4 sm:-bottom-8 sm:right-6 z-20 glass-panel-elevated p-4 sm:p-5 rounded-2xl border border-luxury-600/60 shadow-luxury max-w-[240px] sm:max-w-xs">
               <div className="flex items-center gap-3">
                 <div className="p-3 rounded-xl bg-whatsapp/10 border border-whatsapp/30 text-whatsapp">
